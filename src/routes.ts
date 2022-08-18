@@ -4,10 +4,10 @@ import { scheduleJob } from "node-schedule";
 
 export const routes = express.Router();
 
-let skip = 0;
+let skip = Math.floor(Math.random() * 7);
 
 export function changeDecree() {
-  scheduleJob("0 0 * * *", async function () {
+  scheduleJob("0 3 * * *", async function () {
     const length = await prisma.decree.count();
     skip = Math.floor(Math.random() * length);
 
