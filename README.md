@@ -2,7 +2,7 @@
 
 ## Sobre o projeto
 
-Day Decree é uma API que todo dia retorna uma frase nova e aleatória. As frases são baseadas no decreto do dia, do jornalista Alê Oliveria, então elas possuem um leve significado de brincadeira e deboche.
+Day Decree é uma API que todo dia retorna uma frase nova e aleatória. As frases são baseadas no decreto do dia, do jornalista Alê Oliveria, então elas possuem um leve significado de brincadeira e deboche. É uma API simples com 4 rotas apenas, uma para inserção, duas de consulta e uma de remoção.
 
 ## Objetivo
 
